@@ -1,1 +1,29 @@
 /* Write your CSS here */
+.language-btn {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    font-family: 'Roboto';
+    font-size: 16px;
+    font-weight: bold;
+    color: #0f172a;
+    cursor: pointer;
+}
+.active-language-btn {
+    padding: 2px 16px;
+    border-radius: 20px;
+    border: 2px solid #0284c7;
+    font-family: 'Roboto';
+    font-size: 16px;
+    font-weight: bold;
+    color: #0284c7;
+    cursor: pointer;
+}
+@media screen and (min-width: 768px){
+    .language-btn{
+        font-size: 20px;
+    }
+    .active-language-btn {
+        font-size: 20px;
+    }
+}
