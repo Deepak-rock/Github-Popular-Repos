@@ -1,53 +1,59 @@
 /* Write your CSS here */
-.repository-item{
-    align-self: center;
-    background-color: #f8f8ff;
-    margin: 20px;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    border-radius: 20px;
-    padding:40px;
+.repository-item {
+  align-self: center;
+  background-color: #f8f8ff;
+  margin: 20px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  padding: 40px;
 }
 .name {
-    font-family: 'Roboto';
-    font-size: 28px;
-    font-weight: bold;
-    color: #e73959;
-    padding: 10px 0;
+  font-family: 'Roboto';
+  font-size: 28px;
+  font-weight: bold;
+  color: #e73959;
+  padding: 10px 0;
 }
 .avatar {
-    width: 150px;
+  width: 150px;
 }
-.star-container,.forks-container,.open-issues-container{
-    align-self: flex-start;
-    display: flex;
-    align-items: center;
-    gap: 30px;
+.star-container,
+.forks-container,
+.open-issues-container {
+  align-self: flex-start;
+  display: flex;
+  align-items: center;
+  gap: 30px;
 }
 .icon {
-    width: 30px;
-    height: 30px;
+  width: 30px;
+  height: 30px;
 }
-.stars,.forks,.open-issues{
-    font-family: 'Roboto';
-    font-size: 16px;
-    color: #0f172a;
+.stars,
+.forks,
+.open-issues {
+  font-family: 'Roboto';
+  font-size: 16px;
+  color: #0f172a;
 }
 @media screen and (min-width: 768px) {
-    .repository-item {
-        width: 350px;
-        flex-grow: 1;
-    }
-    .name {
-        font-size: 36px;
-    }
-    .avatar {
-        width: 200px;
-    }
-    .stars,.forks,.open-issues{
-        font-size: 18px;
-    }
+  .repository-item {
+    width: 350px;
+    flex-grow: 1;
+  }
+  .name {
+    font-size: 36px;
+  }
+  .avatar {
+    width: 200px;
+  }
+  .stars,
+  .forks,
+  .open-issues {
+    font-size: 18px;
+  }
 }
